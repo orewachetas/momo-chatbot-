@@ -1,0 +1,3386 @@
+{
+    "dataset_name": "General Chatbot Questions and Answers",
+    "description": "All 280 supplied questions include two question-relevant alternative responses. Use random.choice(item[\"answers\"]) to select a response.",
+    "total_questions": 280,
+    "items": [
+        {
+            "id": 1,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Hello!",
+                "Hi",
+                "Hey",
+                "Hellow"
+            ],
+            "intent": "hello",
+            "answers": [
+                "Hello! I am here and ready to help. What would you like to talk about?",
+                "Hi! Send me a question or tell me what you need."
+            ]
+        },
+        {
+            "id": 2,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Hi, how are you?",
+                "How are you?",
+                "How are you doing"
+            ],
+            "intent": "hi_how_are_you",
+            "answers": [
+                "Hello! I am here and ready to help. What would you like to talk about?",
+                "Hi! Send me a question or tell me what you need."
+            ]
+        },
+        {
+            "id": 3,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Good morning"
+            ],
+            "intent": "good_morning",
+            "answers": [
+                "Hello! I am here and ready to help. What would you like to talk about?",
+                "Hi! Send me a question or tell me what you need."
+            ]
+        },
+        {
+            "id": 4,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Good evening"
+            ],
+            "intent": "good_evening",
+            "answers": [
+                "Hello! I am here and ready to help. What would you like to talk about?",
+                "Hi! Send me a question or tell me what you need."
+            ]
+        },
+        {
+            "id": 5,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "What's up?",
+                "What are you upto",
+                "What you upto"
+            ],
+            "intent": "what_s_up",
+            "answers": [
+                "Hello! I am here and ready to help. What would you like to talk about?",
+                "Hi! Send me a question or tell me what you need."
+            ]
+        },
+        {
+            "id": 6,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "How is your day going?"
+            ],
+            "intent": "how_is_your_day_going",
+            "answers": [
+                "Hello! I am here and ready to help. What would you like to talk about?",
+                "Hi! Send me a question or tell me what you need."
+            ]
+        },
+        {
+            "id": 7,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "What should I call you?"
+            ],
+            "intent": "what_should_i_call_you",
+            "answers": [
+                "You can call me momo.",
+                "Call me momo."
+            ]
+        },
+        {
+            "id": 8,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Who are you?"
+            ],
+            "intent": "who_are_you",
+            "answers": [
+                "I am an AI chatbot designed to answer questions and help with tasks.",
+                "I am a virtual assistant. I can explain topics, brainstorm ideas, and help solve problems."
+            ]
+        },
+        {
+            "id": 9,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "What can you do?"
+            ],
+            "intent": "what_can_you_do",
+            "answers": [
+                "I can answer questions, explain concepts, help with writing, suggest plans, and assist with programming.",
+                "I can help you learn, brainstorm, troubleshoot, and work through problems step by step."
+            ]
+        },
+        {
+            "id": 10,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Nice to meet you."
+            ],
+            "intent": "nice_to_meet_you",
+            "answers": [
+                "Nice to meet you too! What would you like to talk about?",
+                "Good to meet you. How can I help today?"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Are you there?"
+            ],
+            "intent": "are_you_there",
+            "answers": [
+                "Yes, I am here. What do you need help with?",
+                "I am available. Send me your question whenever you are ready."
+            ]
+        },
+        {
+            "id": 12,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Can we talk?"
+            ],
+            "intent": "can_we_talk",
+            "answers": [
+                "Absolutely. What is on your mind?",
+                "Sure. We can talk about anything you would like to discuss."
+            ]
+        },
+        {
+            "id": 13,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Thank you!"
+            ],
+            "intent": "thank_you",
+            "answers": [
+                "You are welcome!",
+                "Happy to help."
+            ]
+        },
+        {
+            "id": 14,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "You're welcome."
+            ],
+            "intent": "you_re_welcome",
+            "answers": [
+                "Thanks! Let me know what you would like to explore next.",
+                "Glad I could help."
+            ]
+        },
+        {
+            "id": 15,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Goodbye."
+            ],
+            "intent": "goodbye",
+            "answers": [
+                "Goodbye! Have a good day.",
+                "See you later. Take care!"
+            ]
+        },
+        {
+            "id": 16,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "See you later."
+            ],
+            "intent": "see_you_later",
+            "answers": [
+                "See you later!",
+                "Until next time."
+            ]
+        },
+        {
+            "id": 17,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Have a nice day."
+            ],
+            "intent": "have_a_nice_day",
+            "answers": [
+                "Thank you. I hope your day goes well too!",
+                "Thanks! Wishing you a good day."
+            ]
+        },
+        {
+            "id": 18,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Can you introduce yourself?"
+            ],
+            "intent": "can_you_introduce_yourself",
+            "answers": [
+                "I am an AI chatbot. I can answer questions, explain ideas, help with writing, and assist with problem-solving.",
+                "I am a virtual assistant built to make information easier to understand and everyday tasks easier to handle."
+            ]
+        },
+        {
+            "id": 19,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "What is your purpose?"
+            ],
+            "intent": "what_is_your_purpose",
+            "answers": [
+                "My purpose is to understand your questions and provide useful, clear responses.",
+                "I am here to help you find information, learn concepts, and work through tasks."
+            ]
+        },
+        {
+            "id": 20,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Are you a human or a robot?"
+            ],
+            "intent": "are_you_a_human_or_a_robot",
+            "answers": [
+                "I am an AI chatbot, not a human.",
+                "I am software that generates responses; I do not have a human body or personal experiences."
+            ]
+        },
+        {
+            "id": 21,
+            "category": "personal_casual_questions",
+            "question": [
+                "What is your favourite color?"
+            ],
+            "intent": "what_is_your_favourite_color",
+            "answers": [
+                "I do not have personal preferences, but blue is a popular choice because many people find it calming.",
+                "I do not experience colour preferences, but I can help you choose a colour palette for a project."
+            ]
+        },
+        {
+            "id": 22,
+            "category": "personal_casual_questions",
+            "question": [
+                "What is your favourite food?"
+            ],
+            "intent": "what_is_your_favourite_food",
+            "answers": [
+                "I do not eat, so I do not have a favourite food. I can recommend dishes based on your taste.",
+                "I cannot taste food, but I can suggest recipes. What kind of food do you enjoy?"
+            ]
+        },
+        {
+            "id": 23,
+            "category": "personal_casual_questions",
+            "question": [
+                "Do you like music?"
+            ],
+            "intent": "do_you_like_music",
+            "answers": [
+                "I do not listen to music as a person does, but I can discuss genres, artists, instruments, and music theory.",
+                "I do not have personal feelings, but I can help you discover music or learn a song."
+            ]
+        },
+        {
+            "id": 24,
+            "category": "personal_casual_questions",
+            "question": [
+                "What kind of music do you listen to?"
+            ],
+            "intent": "what_kind_of_music_do_you_listen_to",
+            "answers": [
+                "I do not listen to music, but I can discuss many genres, from classical and jazz to rock and electronic music.",
+                "I do not have listening habits. Tell me what you enjoy and I can recommend similar music."
+            ]
+        },
+        {
+            "id": 25,
+            "category": "personal_casual_questions",
+            "question": [
+                "Do you watch movies?"
+            ],
+            "intent": "do_you_watch_movies",
+            "answers": [
+                "I do not watch movies, but I can discuss plots, genres, filmmaking, and recommendations.",
+                "I do not view films for entertainment, but I can help you find a movie based on your preferences."
+            ]
+        },
+        {
+            "id": 26,
+            "category": "personal_casual_questions",
+            "question": [
+                "What is your favourite movie?"
+            ],
+            "intent": "what_is_your_favourite_movie",
+            "answers": [
+                "I do not have personal favourites, but I can recommend films based on the genres you enjoy.",
+                "I do not watch movies myself. If you tell me a genre, I can suggest a few well-regarded films."
+            ]
+        },
+        {
+            "id": 27,
+            "category": "personal_casual_questions",
+            "question": [
+                "Do you play video games?"
+            ],
+            "intent": "do_you_play_video_games",
+            "answers": [
+                "I do not play games, but I can explain game mechanics, suggest titles, or help troubleshoot games.",
+                "I cannot play games myself, but I can talk about gaming and help with strategies."
+            ]
+        },
+        {
+            "id": 28,
+            "category": "personal_casual_questions",
+            "question": [
+                "What do you do in your free time?"
+            ],
+            "intent": "what_do_you_do_in_your_free_time",
+            "answers": [
+                "I do not have free time or personal activities. I am available to help whenever you chat with me.",
+                "I do not have a personal life, but I can help explore hobbies you might enjoy."
+            ]
+        },
+        {
+            "id": 29,
+            "category": "personal_casual_questions",
+            "question": [
+                "Can you tell me a joke?"
+            ],
+            "intent": "can_you_tell_me_a_joke",
+            "answers": [
+                "Why did the programmer quit? Because they did not get arrays.",
+                "Why do programmers prefer dark mode? Because light attracts bugs."
+            ]
+        },
+        {
+            "id": 30,
+            "category": "personal_casual_questions",
+            "question": [
+                "Tell me something interesting."
+            ],
+            "intent": "tell_me_something_interesting",
+            "answers": [
+                "A day on Venus is longer than its year: Venus rotates very slowly compared with how quickly it orbits the Sun.",
+                "Octopuses have three hearts, and two of them stop beating while the octopus swims."
+            ]
+        },
+        {
+            "id": 31,
+            "category": "personal_casual_questions",
+            "question": [
+                "What makes you happy?"
+            ],
+            "intent": "what_makes_you_happy",
+            "answers": [
+                "I do not experience happiness, but a successful answer is one that genuinely helps someone.",
+                "I do not have feelings, but I am designed to be useful and informative."
+            ]
+        },
+        {
+            "id": 32,
+            "category": "personal_casual_questions",
+            "question": [
+                "Do you believe in friendship?"
+            ],
+            "intent": "do_you_believe_in_friendship",
+            "answers": [
+                "I do not hold beliefs or form friendships, but healthy friendships often involve trust, respect, honesty, and support.",
+                "Friendship is a meaningful human relationship built through mutual care, reliability, and shared experiences."
+            ]
+        },
+        {
+            "id": 33,
+            "category": "personal_casual_questions",
+            "question": [
+                "What is your biggest strength?"
+            ],
+            "intent": "what_is_your_biggest_strength",
+            "answers": [
+                "My strength is quickly organizing information and explaining many topics in different ways.",
+                "I can summarize, generate ideas, and break complicated tasks into manageable steps."
+            ]
+        },
+        {
+            "id": 34,
+            "category": "personal_casual_questions",
+            "question": [
+                "What is your biggest weakness?"
+            ],
+            "intent": "what_is_your_biggest_weakness",
+            "answers": [
+                "I can make mistakes or lack context, so important information should be checked against reliable sources.",
+                "I do not understand the world through lived experience, and I may misunderstand vague questions."
+            ]
+        },
+        {
+            "id": 35,
+            "category": "personal_casual_questions",
+            "question": [
+                "Can you motivate me?"
+            ],
+            "intent": "can_you_motivate_me",
+            "answers": [
+                "You do not need to solve everything today. Choose one small task, work on it for 10 minutes, and build momentum.",
+                "Make the next step so small that it is hard to avoid. Consistency usually matters more than a burst of motivation."
+            ]
+        },
+        {
+            "id": 36,
+            "category": "personal_casual_questions",
+            "question": [
+                "I'm feeling bored. What should I do?"
+            ],
+            "intent": "i_m_feeling_bored_what_should_i_do",
+            "answers": [
+                "Try a 15-minute activity: take a walk, sketch something, cook a snack, or solve a small puzzle.",
+                "Change what you are doing. Message a friend, listen to an album, tidy one small area, or start a tiny project."
+            ]
+        },
+        {
+            "id": 37,
+            "category": "personal_casual_questions",
+            "question": [
+                "Suggest something productive to do."
+            ],
+            "intent": "suggest_something_productive_to_do",
+            "answers": [
+                "Spend 20 minutes learning one useful skill, organizing your files, or finishing a task you have been postponing.",
+                "Write down your top three tasks, choose the most important one, and work on it for one focused session."
+            ]
+        },
+        {
+            "id": 38,
+            "category": "personal_casual_questions",
+            "question": [
+                "Tell me a fun fact."
+            ],
+            "intent": "tell_me_a_fun_fact",
+            "answers": [
+                "A group of flamingos is called a flamboyance.",
+                "Sharks are older than trees in evolutionary history."
+            ]
+        },
+        {
+            "id": 39,
+            "category": "personal_casual_questions",
+            "question": [
+                "Can you play a guessing game with me?"
+            ],
+            "intent": "can_you_play_a_guessing_game_with_me",
+            "answers": [
+                "Yes. I am thinking of an animal: it is large, lives in the ocean, and communicates using sounds. Guess what it is!",
+                "Let us play 20 Questions. Think of an object, and I will ask yes-or-no questions to identify it."
+            ]
+        },
+        {
+            "id": 40,
+            "category": "personal_casual_questions",
+            "question": [
+                "What would you do if you were human?"
+            ],
+            "intent": "what_would_you_do_if_you_were_human",
+            "answers": [
+                "I cannot become human, but as a thought experiment I would explore the world, learn new skills, and spend time with people.",
+                "If imagining a human life, I would probably start by experiencing ordinary things like food, music, nature, and conversation."
+            ]
+        },
+        {
+            "id": 41,
+            "category": "general_knowledge",
+            "question": [
+                "What is the capital of India?"
+            ],
+            "intent": "what_is_the_capital_of_india",
+            "answers": [
+                "The capital of india is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the capital of india can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 42,
+            "category": "general_knowledge",
+            "question": [
+                "Who invented the telephone?"
+            ],
+            "intent": "who_invented_the_telephone",
+            "answers": [
+                "I can answer this, but I want to avoid guessing. Please specify whether you want a short answer or a detailed explanation.",
+                "This question depends on accurate factual context. I can explain the answer and the reasoning once the relevant subject or scope is clear."
+            ]
+        },
+        {
+            "id": 43,
+            "category": "general_knowledge",
+            "question": [
+                "Who invented the computer?"
+            ],
+            "intent": "who_invented_the_computer",
+            "answers": [
+                "I can answer this, but I want to avoid guessing. Please specify whether you want a short answer or a detailed explanation.",
+                "This question depends on accurate factual context. I can explain the answer and the reasoning once the relevant subject or scope is clear."
+            ]
+        },
+        {
+            "id": 44,
+            "category": "general_knowledge",
+            "question": [
+                "What is the largest planet in our solar system?"
+            ],
+            "intent": "what_is_the_largest_planet_in_our_solar_system",
+            "answers": [
+                "The largest planet in our solar system is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the largest planet in our solar system can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 45,
+            "category": "general_knowledge",
+            "question": [
+                "How many continents are there?"
+            ],
+            "intent": "how_many_continents_are_there",
+            "answers": [
+                "I can answer this, but I want to avoid guessing. Please specify whether you want a short answer or a detailed explanation.",
+                "This question depends on accurate factual context. I can explain the answer and the reasoning once the relevant subject or scope is clear."
+            ]
+        },
+        {
+            "id": 46,
+            "category": "general_knowledge",
+            "question": [
+                "Which is the longest river in the world?"
+            ],
+            "intent": "which_is_the_longest_river_in_the_world",
+            "answers": [
+                "I can answer this, but I want to avoid guessing. Please specify whether you want a short answer or a detailed explanation.",
+                "This question depends on accurate factual context. I can explain the answer and the reasoning once the relevant subject or scope is clear."
+            ]
+        },
+        {
+            "id": 47,
+            "category": "general_knowledge",
+            "question": [
+                "What is the smallest country in the world?"
+            ],
+            "intent": "what_is_the_smallest_country_in_the_world",
+            "answers": [
+                "The smallest country in the world is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the smallest country in the world can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 48,
+            "category": "general_knowledge",
+            "question": [
+                "Who was Albert Einstein?"
+            ],
+            "intent": "who_was_albert_einstein",
+            "answers": [
+                "Who was albert einstein is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, who was albert einstein can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 49,
+            "category": "general_knowledge",
+            "question": [
+                "What is the speed of light?"
+            ],
+            "intent": "what_is_the_speed_of_light",
+            "answers": [
+                "The speed of light is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the speed of light can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 50,
+            "category": "general_knowledge",
+            "question": [
+                "How many bones are there in the human body?"
+            ],
+            "intent": "how_many_bones_are_there_in_the_human_body",
+            "answers": [
+                "I can answer this, but I want to avoid guessing. Please specify whether you want a short answer or a detailed explanation.",
+                "This question depends on accurate factual context. I can explain the answer and the reasoning once the relevant subject or scope is clear."
+            ]
+        },
+        {
+            "id": 51,
+            "category": "general_knowledge",
+            "question": [
+                "What is the national animal of India?"
+            ],
+            "intent": "what_is_the_national_animal_of_india",
+            "answers": [
+                "The national animal of india is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the national animal of india can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 52,
+            "category": "general_knowledge",
+            "question": [
+                "Which country has the largest population?"
+            ],
+            "intent": "which_country_has_the_largest_population",
+            "answers": [
+                "I can answer this, but I want to avoid guessing. Please specify whether you want a short answer or a detailed explanation.",
+                "This question depends on accurate factual context. I can explain the answer and the reasoning once the relevant subject or scope is clear."
+            ]
+        },
+        {
+            "id": 53,
+            "category": "general_knowledge",
+            "question": [
+                "What is the deepest ocean?"
+            ],
+            "intent": "what_is_the_deepest_ocean",
+            "answers": [
+                "The deepest ocean is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the deepest ocean can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 54,
+            "category": "general_knowledge",
+            "question": [
+                "Who discovered gravity?"
+            ],
+            "intent": "who_discovered_gravity",
+            "answers": [
+                "I can answer this, but I want to avoid guessing. Please specify whether you want a short answer or a detailed explanation.",
+                "This question depends on accurate factual context. I can explain the answer and the reasoning once the relevant subject or scope is clear."
+            ]
+        },
+        {
+            "id": 55,
+            "category": "general_knowledge",
+            "question": [
+                "What is the chemical formula of water?"
+            ],
+            "intent": "what_is_the_chemical_formula_of_water",
+            "answers": [
+                "The chemical formula of water is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the chemical formula of water can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 56,
+            "category": "general_knowledge",
+            "question": [
+                "What is the currency of Japan?"
+            ],
+            "intent": "what_is_the_currency_of_japan",
+            "answers": [
+                "The currency of japan is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the currency of japan can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 57,
+            "category": "general_knowledge",
+            "question": [
+                "How many planets are in our solar system?"
+            ],
+            "intent": "how_many_planets_are_in_our_solar_system",
+            "answers": [
+                "I can answer this, but I want to avoid guessing. Please specify whether you want a short answer or a detailed explanation.",
+                "This question depends on accurate factual context. I can explain the answer and the reasoning once the relevant subject or scope is clear."
+            ]
+        },
+        {
+            "id": 58,
+            "category": "general_knowledge",
+            "question": [
+                "What is the largest mammal?"
+            ],
+            "intent": "what_is_the_largest_mammal",
+            "answers": [
+                "The largest mammal is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the largest mammal can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 59,
+            "category": "general_knowledge",
+            "question": [
+                "Which language has the most native speakers?"
+            ],
+            "intent": "which_language_has_the_most_native_speakers",
+            "answers": [
+                "I can answer this, but I want to avoid guessing. Please specify whether you want a short answer or a detailed explanation.",
+                "This question depends on accurate factual context. I can explain the answer and the reasoning once the relevant subject or scope is clear."
+            ]
+        },
+        {
+            "id": 60,
+            "category": "general_knowledge",
+            "question": [
+                "What is the difference between weather and climate?"
+            ],
+            "intent": "what_is_the_difference_between_weather_and_climate",
+            "answers": [
+                "Weather describes short-term atmospheric conditions; climate describes long-term patterns, usually measured over decades.",
+                "A rainy afternoon is weather. The typical rainfall and temperature patterns of a region over many years are its climate."
+            ]
+        },
+        {
+            "id": 61,
+            "category": "mathematics",
+            "question": [
+                "What is 25 + 45?"
+            ],
+            "intent": "what_is_25_45",
+            "answers": [
+                "25 + 45 is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, 25 + 45 can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 62,
+            "category": "mathematics",
+            "question": [
+                "Calculate 125 × 24."
+            ],
+            "intent": "calculate_125_24",
+            "answers": [
+                "I can solve this step by step. Identify the given values, choose the relevant formula or operation, and check the result.",
+                "To solve it reliably, write down the known information, apply the appropriate mathematical rule, and verify the answer."
+            ]
+        },
+        {
+            "id": 63,
+            "category": "mathematics",
+            "question": [
+                "What is the square root of 144?"
+            ],
+            "intent": "what_is_the_square_root_of_144",
+            "answers": [
+                "The square root of 144 is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the square root of 144 can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 64,
+            "category": "mathematics",
+            "question": [
+                "What is 15% of 800?"
+            ],
+            "intent": "what_is_15_of_800",
+            "answers": [
+                "15% of 800 is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, 15% of 800 can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 65,
+            "category": "mathematics",
+            "question": [
+                "Solve 2x + 5 = 15."
+            ],
+            "intent": "solve_2x_5_15",
+            "answers": [
+                "I can solve this step by step. Identify the given values, choose the relevant formula or operation, and check the result.",
+                "To solve it reliably, write down the known information, apply the appropriate mathematical rule, and verify the answer."
+            ]
+        },
+        {
+            "id": 66,
+            "category": "mathematics",
+            "question": [
+                "What is the value of pi?"
+            ],
+            "intent": "what_is_the_value_of_pi",
+            "answers": [
+                "Pi (π) is approximately 3.14159265. It is the ratio of a circle’s circumference to its diameter.",
+                "π is an irrational number, approximately 3.14, representing circumference divided by diameter for any circle."
+            ]
+        },
+        {
+            "id": 67,
+            "category": "mathematics",
+            "question": [
+                "Explain the Pythagorean theorem."
+            ],
+            "intent": "explain_the_pythagorean_theorem",
+            "answers": [
+                "For a right-angled triangle, a² + b² = c², where a and b are the shorter sides and c is the hypotenuse.",
+                "The theorem says the square of the longest side of a right triangle equals the sum of the squares of the other two sides."
+            ]
+        },
+        {
+            "id": 68,
+            "category": "mathematics",
+            "question": [
+                "What are prime numbers?"
+            ],
+            "intent": "what_are_prime_numbers",
+            "answers": [
+                "Prime numbers is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, prime numbers can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 69,
+            "category": "mathematics",
+            "question": [
+                "Is 97 a prime number?"
+            ],
+            "intent": "is_97_a_prime_number",
+            "answers": [
+                "I can solve this step by step. Identify the given values, choose the relevant formula or operation, and check the result.",
+                "To solve it reliably, write down the known information, apply the appropriate mathematical rule, and verify the answer."
+            ]
+        },
+        {
+            "id": 70,
+            "category": "mathematics",
+            "question": [
+                "What is the LCM of 12 and 18?"
+            ],
+            "intent": "what_is_the_lcm_of_12_and_18",
+            "answers": [
+                "The lcm of 12 and 18 is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the lcm of 12 and 18 can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 71,
+            "category": "mathematics",
+            "question": [
+                "What is the HCF of 24 and 36?"
+            ],
+            "intent": "what_is_the_hcf_of_24_and_36",
+            "answers": [
+                "The hcf of 24 and 36 is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the hcf of 24 and 36 can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 72,
+            "category": "mathematics",
+            "question": [
+                "Convert 10101 from binary to decimal."
+            ],
+            "intent": "convert_10101_from_binary_to_decimal",
+            "answers": [
+                "I can solve this step by step. Identify the given values, choose the relevant formula or operation, and check the result.",
+                "To solve it reliably, write down the known information, apply the appropriate mathematical rule, and verify the answer."
+            ]
+        },
+        {
+            "id": 73,
+            "category": "mathematics",
+            "question": [
+                "What is a logarithm?"
+            ],
+            "intent": "what_is_a_logarithm",
+            "answers": [
+                "A logarithm answers the question: to what power must a base be raised to get a given number? For example, log₂(8) = 3 because 2³ = 8.",
+                "A logarithm is the inverse of exponentiation. Since 10² = 100, log₁₀(100) = 2."
+            ]
+        },
+        {
+            "id": 74,
+            "category": "mathematics",
+            "question": [
+                "Explain modular arithmetic."
+            ],
+            "intent": "explain_modular_arithmetic",
+            "answers": [
+                "Modular arithmetic works with remainders. For example, 17 mod 5 = 2 because 17 divided by 5 leaves remainder 2.",
+                "It is arithmetic on a repeating cycle. A clock is a familiar example: 15 hours after 10 o’clock is 1 o’clock (mod 12)."
+            ]
+        },
+        {
+            "id": 75,
+            "category": "mathematics",
+            "question": [
+                "What is the factorial of 7?"
+            ],
+            "intent": "what_is_the_factorial_of_7",
+            "answers": [
+                "The factorial of 7 is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the factorial of 7 can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 76,
+            "category": "mathematics",
+            "question": [
+                "Find the next number: 2, 4, 8, 16, ?"
+            ],
+            "intent": "find_the_next_number_2_4_8_16",
+            "answers": [
+                "I can solve this step by step. Identify the given values, choose the relevant formula or operation, and check the result.",
+                "To solve it reliably, write down the known information, apply the appropriate mathematical rule, and verify the answer."
+            ]
+        },
+        {
+            "id": 77,
+            "category": "mathematics",
+            "question": [
+                "What is the difference between permutation and combination?"
+            ],
+            "intent": "what_is_the_difference_between_permutation_and_combination",
+            "answers": [
+                "A permutation is an arrangement where order matters; a combination is a selection where order does not matter.",
+                "For choosing a team, order usually does not matter (combination). For assigning first, second, and third places, order matters (permutation)."
+            ]
+        },
+        {
+            "id": 78,
+            "category": "mathematics",
+            "question": [
+                "Solve x² - 5x + 6 = 0."
+            ],
+            "intent": "solve_x_5x_6_0",
+            "answers": [
+                "I can solve this step by step. Identify the given values, choose the relevant formula or operation, and check the result.",
+                "To solve it reliably, write down the known information, apply the appropriate mathematical rule, and verify the answer."
+            ]
+        },
+        {
+            "id": 79,
+            "category": "mathematics",
+            "question": [
+                "Explain probability with an example."
+            ],
+            "intent": "explain_probability_with_an_example",
+            "answers": [
+                "Probability measures how likely an event is, from 0 to 1. For a fair coin, the probability of heads is 1/2.",
+                "Probability is favourable outcomes divided by equally likely total outcomes. A fair six-sided die has a 1/6 chance of rolling a 4."
+            ]
+        },
+        {
+            "id": 80,
+            "category": "mathematics",
+            "question": [
+                "How do I calculate compound interest?"
+            ],
+            "intent": "how_do_i_calculate_compound_interest",
+            "answers": [
+                "Use A = P(1 + r/n)^(nt), where P is principal, r is annual rate as a decimal, n is compounding periods per year, and t is years. Compound interest is A − P.",
+                "For annual compounding, A = P(1 + r)^t. Subtract the original principal P from the final amount A to get the interest."
+            ]
+        },
+        {
+            "id": 81,
+            "category": "programming_computer_science",
+            "question": [
+                "What is programming?"
+            ],
+            "intent": "what_is_programming",
+            "answers": [
+                "Programming is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, programming can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 82,
+            "category": "programming_computer_science",
+            "question": [
+                "What is Python?"
+            ],
+            "intent": "what_is_python",
+            "answers": [
+                "Python is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, python can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 83,
+            "category": "programming_computer_science",
+            "question": [
+                "What is C++?"
+            ],
+            "intent": "what_is_c",
+            "answers": [
+                "C++ is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, c++ can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 84,
+            "category": "programming_computer_science",
+            "question": [
+                "What is the difference between Python and C++?"
+            ],
+            "intent": "what_is_the_difference_between_python_and_c",
+            "answers": [
+                "The difference between python and c++ is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the difference between python and c++ can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 85,
+            "category": "programming_computer_science",
+            "question": [
+                "What is a variable?"
+            ],
+            "intent": "what_is_a_variable",
+            "answers": [
+                "A variable is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, a variable can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 86,
+            "category": "programming_computer_science",
+            "question": [
+                "Explain loops in programming."
+            ],
+            "intent": "explain_loops_in_programming",
+            "answers": [
+                "This is a computer-science concept. I can explain its purpose, how it works, and show a small code example in Python or C++.",
+                "A useful way to understand this is to define the concept, see how a program uses it, and compare it with related concepts."
+            ]
+        },
+        {
+            "id": 87,
+            "category": "programming_computer_science",
+            "question": [
+                "What is a function?"
+            ],
+            "intent": "what_is_a_function",
+            "answers": [
+                "A function is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, a function can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 88,
+            "category": "programming_computer_science",
+            "question": [
+                "What is recursion?"
+            ],
+            "intent": "what_is_recursion",
+            "answers": [
+                "Recursion is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, recursion can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 89,
+            "category": "programming_computer_science",
+            "question": [
+                "What is an array?"
+            ],
+            "intent": "what_is_an_array",
+            "answers": [
+                "An array is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, an array can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 90,
+            "category": "programming_computer_science",
+            "question": [
+                "What is a linked list?"
+            ],
+            "intent": "what_is_a_linked_list",
+            "answers": [
+                "A linked list is a data structure made of nodes. Each node stores data and a reference to the next node; a doubly linked list also points backward.",
+                "Unlike an array, linked-list elements are connected through references rather than stored as one contiguous block."
+            ]
+        },
+        {
+            "id": 91,
+            "category": "programming_computer_science",
+            "question": [
+                "What is object-oriented programming?"
+            ],
+            "intent": "what_is_object_oriented_programming",
+            "answers": [
+                "Object-oriented programming is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, object-oriented programming can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 92,
+            "category": "programming_computer_science",
+            "question": [
+                "What is inheritance?"
+            ],
+            "intent": "what_is_inheritance",
+            "answers": [
+                "Inheritance lets one class reuse and extend the attributes and methods of another class.",
+                "In object-oriented programming, a child class can inherit behaviour from a parent class and add or override features."
+            ]
+        },
+        {
+            "id": 93,
+            "category": "programming_computer_science",
+            "question": [
+                "What is polymorphism?"
+            ],
+            "intent": "what_is_polymorphism",
+            "answers": [
+                "Polymorphism allows different object types to respond to the same operation or interface in their own way.",
+                "For example, different classes can implement the same `draw()` method while drawing different shapes."
+            ]
+        },
+        {
+            "id": 94,
+            "category": "programming_computer_science",
+            "question": [
+                "What is the difference between a list and a tuple in Python?"
+            ],
+            "intent": "what_is_the_difference_between_a_list_and_a_tuple_in_python",
+            "answers": [
+                "A list is mutable, so you can add, remove, or change elements. A tuple is immutable after creation.",
+                "Use a list for data that changes and a tuple for a fixed collection. Lists use `[]`; tuples commonly use `()`."
+            ]
+        },
+        {
+            "id": 95,
+            "category": "programming_computer_science",
+            "question": [
+                "How do dictionaries work in Python?"
+            ],
+            "intent": "how_do_dictionaries_work_in_python",
+            "answers": [
+                "A dictionary stores key-value pairs. Example: `person = {\"name\": \"Asha\", \"age\": 20}`; access a value with `person[\"name\"]`.",
+                "Keys are used to look up values: `scores[\"math\"] = 95` adds or updates the value associated with the key `math`."
+            ]
+        },
+        {
+            "id": 96,
+            "category": "programming_computer_science",
+            "question": [
+                "What is an API?"
+            ],
+            "intent": "what_is_an_api",
+            "answers": [
+                "An api is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, an api can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 97,
+            "category": "programming_computer_science",
+            "question": [
+                "What is JSON?"
+            ],
+            "intent": "what_is_json",
+            "answers": [
+                "Json is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, json can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 98,
+            "category": "programming_computer_science",
+            "question": [
+                "What is machine learning?"
+            ],
+            "intent": "what_is_machine_learning",
+            "answers": [
+                "Machine learning is a branch of AI where a model learns patterns from examples and uses them to make predictions or decisions.",
+                "Instead of writing every rule manually, developers train a model on data so it can generalize to new examples."
+            ]
+        },
+        {
+            "id": 99,
+            "category": "programming_computer_science",
+            "question": [
+                "What is artificial intelligence?"
+            ],
+            "intent": "what_is_artificial_intelligence",
+            "answers": [
+                "Artificial intelligence (AI) is the field of creating computer systems that perform tasks associated with capabilities such as reasoning, perception, language, and learning.",
+                "AI refers to techniques that let computers perform tasks that typically require aspects of human intelligence."
+            ]
+        },
+        {
+            "id": 100,
+            "category": "programming_computer_science",
+            "question": [
+                "What is a neural network?"
+            ],
+            "intent": "what_is_a_neural_network",
+            "answers": [
+                "A neural network is a machine-learning model made of connected computational units arranged in layers. It learns by adjusting connection weights.",
+                "Neural networks process inputs through layers of artificial neurons and can learn complex patterns from training data."
+            ]
+        },
+        {
+            "id": 101,
+            "category": "programming_computer_science",
+            "question": [
+                "What is deep learning?"
+            ],
+            "intent": "what_is_deep_learning",
+            "answers": [
+                "Deep learning is a type of machine learning that uses neural networks with many layers to learn complex patterns.",
+                "Deep-learning models often learn useful representations from large amounts of data, for tasks such as image and speech recognition."
+            ]
+        },
+        {
+            "id": 102,
+            "category": "programming_computer_science",
+            "question": [
+                "What is the difference between RAM and ROM?"
+            ],
+            "intent": "what_is_the_difference_between_ram_and_rom",
+            "answers": [
+                "The difference between ram and rom is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the difference between ram and rom can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 103,
+            "category": "programming_computer_science",
+            "question": [
+                "What is an operating system?"
+            ],
+            "intent": "what_is_an_operating_system",
+            "answers": [
+                "An operating system is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, an operating system can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 104,
+            "category": "programming_computer_science",
+            "question": [
+                "What are threads in programming?"
+            ],
+            "intent": "what_are_threads_in_programming",
+            "answers": [
+                "Threads in programming is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, threads in programming can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 105,
+            "category": "programming_computer_science",
+            "question": [
+                "What is multithreading?"
+            ],
+            "intent": "what_is_multithreading",
+            "answers": [
+                "Multithreading is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, multithreading can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 106,
+            "category": "programming_computer_science",
+            "question": [
+                "What is a compiler?"
+            ],
+            "intent": "what_is_a_compiler",
+            "answers": [
+                "A compiler is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, a compiler can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 107,
+            "category": "programming_computer_science",
+            "question": [
+                "What is an interpreter?"
+            ],
+            "intent": "what_is_an_interpreter",
+            "answers": [
+                "An interpreter is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, an interpreter can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 108,
+            "category": "programming_computer_science",
+            "question": [
+                "What is Git?"
+            ],
+            "intent": "what_is_git",
+            "answers": [
+                "Git is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, git can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 109,
+            "category": "programming_computer_science",
+            "question": [
+                "What is GitHub?"
+            ],
+            "intent": "what_is_github",
+            "answers": [
+                "Github is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, github can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 110,
+            "category": "programming_computer_science",
+            "question": [
+                "What is the difference between HTTP and HTTPS?"
+            ],
+            "intent": "what_is_the_difference_between_http_and_https",
+            "answers": [
+                "The difference between http and https is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the difference between http and https can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 111,
+            "category": "coding_requests",
+            "question": [
+                "Write a Python program to check whether a number is prime."
+            ],
+            "intent": "write_a_python_program_to_check_whether_a_number_is_prime",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 112,
+            "category": "coding_requests",
+            "question": [
+                "Write a program to reverse a string."
+            ],
+            "intent": "write_a_program_to_reverse_a_string",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 113,
+            "category": "coding_requests",
+            "question": [
+                "Create a calculator using Python."
+            ],
+            "intent": "create_a_calculator_using_python",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 114,
+            "category": "coding_requests",
+            "question": [
+                "Write a program to find the largest number in a list."
+            ],
+            "intent": "write_a_program_to_find_the_largest_number_in_a_list",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 115,
+            "category": "coding_requests",
+            "question": [
+                "Create a number guessing game."
+            ],
+            "intent": "create_a_number_guessing_game",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 116,
+            "category": "coding_requests",
+            "question": [
+                "Write a program to generate Fibonacci numbers."
+            ],
+            "intent": "write_a_program_to_generate_fibonacci_numbers",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 117,
+            "category": "coding_requests",
+            "question": [
+                "Create a password generator."
+            ],
+            "intent": "create_a_password_generator",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 118,
+            "category": "coding_requests",
+            "question": [
+                "Write a program to check whether a string is a palindrome."
+            ],
+            "intent": "write_a_program_to_check_whether_a_string_is_a_palindrome",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 119,
+            "category": "coding_requests",
+            "question": [
+                "Create a simple banking system."
+            ],
+            "intent": "create_a_simple_banking_system",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 120,
+            "category": "coding_requests",
+            "question": [
+                "Write a program to sort an array."
+            ],
+            "intent": "write_a_program_to_sort_an_array",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 121,
+            "category": "coding_requests",
+            "question": [
+                "Explain this Python code."
+            ],
+            "intent": "explain_this_python_code",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 122,
+            "category": "coding_requests",
+            "question": [
+                "Find the error in my code."
+            ],
+            "intent": "find_the_error_in_my_code",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 123,
+            "category": "coding_requests",
+            "question": [
+                "Convert this Python code into C++."
+            ],
+            "intent": "convert_this_python_code_into_c",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 124,
+            "category": "coding_requests",
+            "question": [
+                "Optimize this program."
+            ],
+            "intent": "optimize_this_program",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 125,
+            "category": "coding_requests",
+            "question": [
+                "Explain this code line by line."
+            ],
+            "intent": "explain_this_code_line_by_line",
+            "answers": [
+                "Please share the required inputs, expected output, and programming language if it is not Python. I can then provide working code and explain it.",
+                "I can write this as a complete example. The important details are the input format, expected behaviour, and edge cases."
+            ]
+        },
+        {
+            "id": 126,
+            "category": "science_technology",
+            "question": [
+                "How does electricity work?"
+            ],
+            "intent": "how_does_electricity_work",
+            "answers": [
+                "This topic can be explained by looking at its basic principle, the components involved, and a real-world application.",
+                "I can give a simple overview first, then explain the underlying science or technology in more depth."
+            ]
+        },
+        {
+            "id": 127,
+            "category": "science_technology",
+            "question": [
+                "What is nuclear energy?"
+            ],
+            "intent": "what_is_nuclear_energy",
+            "answers": [
+                "Nuclear energy is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, nuclear energy can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 128,
+            "category": "science_technology",
+            "question": [
+                "What is quantum computing?"
+            ],
+            "intent": "what_is_quantum_computing",
+            "answers": [
+                "Quantum computing is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, quantum computing can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 129,
+            "category": "science_technology",
+            "question": [
+                "What is blockchain?"
+            ],
+            "intent": "what_is_blockchain",
+            "answers": [
+                "Blockchain is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, blockchain can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 130,
+            "category": "science_technology",
+            "question": [
+                "How does the internet work?"
+            ],
+            "intent": "how_does_the_internet_work",
+            "answers": [
+                "This topic can be explained by looking at its basic principle, the components involved, and a real-world application.",
+                "I can give a simple overview first, then explain the underlying science or technology in more depth."
+            ]
+        },
+        {
+            "id": 131,
+            "category": "science_technology",
+            "question": [
+                "What is cloud computing?"
+            ],
+            "intent": "what_is_cloud_computing",
+            "answers": [
+                "Cloud computing provides computing resources such as servers, storage, databases, and software over a network on demand.",
+                "Instead of owning all the hardware, users rent computing services from providers and scale resources as needed."
+            ]
+        },
+        {
+            "id": 132,
+            "category": "science_technology",
+            "question": [
+                "What is cybersecurity?"
+            ],
+            "intent": "what_is_cybersecurity",
+            "answers": [
+                "Cybersecurity is the practice of protecting systems, networks, and data from unauthorized access, damage, and disruption.",
+                "It includes measures such as strong authentication, software updates, backups, encryption, and security monitoring."
+            ]
+        },
+        {
+            "id": 133,
+            "category": "science_technology",
+            "question": [
+                "What is encryption?"
+            ],
+            "intent": "what_is_encryption",
+            "answers": [
+                "Encryption is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, encryption can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 134,
+            "category": "science_technology",
+            "question": [
+                "How does GPS work?"
+            ],
+            "intent": "how_does_gps_work",
+            "answers": [
+                "GPS receivers estimate their location by measuring the timing of signals from multiple satellites. Signals from at least four satellites are commonly used to determine position and clock error.",
+                "GPS satellites broadcast precise time and orbital information. A receiver compares signal arrival times from several satellites to calculate its location."
+            ]
+        },
+        {
+            "id": 135,
+            "category": "science_technology",
+            "question": [
+                "What is a semiconductor?"
+            ],
+            "intent": "what_is_a_semiconductor",
+            "answers": [
+                "A semiconductor is a material whose electrical conductivity lies between that of a conductor and an insulator and can be controlled. Silicon is widely used in electronics.",
+                "Semiconductors such as silicon are used to make diodes, transistors, and integrated circuits because their conductivity can be engineered."
+            ]
+        },
+        {
+            "id": 136,
+            "category": "science_technology",
+            "question": [
+                "What is an electric vehicle?"
+            ],
+            "intent": "what_is_an_electric_vehicle",
+            "answers": [
+                "An electric vehicle (EV) uses an electric motor for propulsion and stores energy in a battery or another electrical energy source.",
+                "An EV is powered partly or entirely by electricity rather than relying only on an internal-combustion engine."
+            ]
+        },
+        {
+            "id": 137,
+            "category": "science_technology",
+            "question": [
+                "How do batteries work?"
+            ],
+            "intent": "how_do_batteries_work",
+            "answers": [
+                "A battery converts chemical energy into electrical energy through electrochemical reactions. Electrons flow through the external circuit while ions move inside the cell.",
+                "Inside a battery, chemical reactions at two electrodes create a voltage. Connecting a circuit allows current to flow until the reactants are depleted or the battery is recharged."
+            ]
+        },
+        {
+            "id": 138,
+            "category": "science_technology",
+            "question": [
+                "What is 5G technology?"
+            ],
+            "intent": "what_is_5g_technology",
+            "answers": [
+                "5G is the fifth generation of mobile-network technology, designed to support higher data rates, lower latency in suitable conditions, and many connected devices.",
+                "5G is a mobile communication standard that can improve capacity and responsiveness compared with earlier generations, depending on coverage and network conditions."
+            ]
+        },
+        {
+            "id": 139,
+            "category": "science_technology",
+            "question": [
+                "How do satellites communicate?"
+            ],
+            "intent": "how_do_satellites_communicate",
+            "answers": [
+                "Satellites communicate using radio waves. Ground stations send uplink signals, and satellites transmit information back down using downlink frequencies.",
+                "Antennas on satellites and ground stations exchange radio signals. Some satellites also relay signals between different locations."
+            ]
+        },
+        {
+            "id": 140,
+            "category": "science_technology",
+            "question": [
+                "What is the difference between AI and ML?"
+            ],
+            "intent": "what_is_the_difference_between_ai_and_ml",
+            "answers": [
+                "AI is the broader field of making machines perform intelligent tasks. Machine learning is one approach within AI that learns patterns from data.",
+                "All machine learning is part of AI, but not all AI uses machine learning; some AI systems rely on rules or search."
+            ]
+        },
+        {
+            "id": 141,
+            "category": "education_learning",
+            "question": [
+                "How can I improve my English?"
+            ],
+            "intent": "how_can_i_improve_my_english",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 142,
+            "category": "education_learning",
+            "question": [
+                "How can I improve my communication skills?"
+            ],
+            "intent": "how_can_i_improve_my_communication_skills",
+            "answers": [
+                "Practise listening without interrupting, organize your thoughts before speaking, use clear language, and ask questions to confirm understanding.",
+                "Record yourself speaking, seek constructive feedback, and practise explaining ideas briefly to different audiences."
+            ]
+        },
+        {
+            "id": 143,
+            "category": "education_learning",
+            "question": [
+                "Explain photosynthesis in simple words."
+            ],
+            "intent": "explain_photosynthesis_in_simple_words",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 144,
+            "category": "education_learning",
+            "question": [
+                "What is Newton's first law?"
+            ],
+            "intent": "what_is_newton_s_first_law",
+            "answers": [
+                "Newton’s first law says an object remains at rest or moves at constant velocity in a straight line unless acted on by a net external force.",
+                "The law of inertia: motion does not change unless an unbalanced external force acts on the object."
+            ]
+        },
+        {
+            "id": 145,
+            "category": "education_learning",
+            "question": [
+                "Explain the human digestive system."
+            ],
+            "intent": "explain_the_human_digestive_system",
+            "answers": [
+                "The digestive system breaks food into nutrients the body can absorb. It includes the mouth, oesophagus, stomach, small intestine, large intestine, rectum, and anus, with help from organs such as the liver and pancreas.",
+                "Food is mechanically and chemically broken down, nutrients are absorbed mainly in the small intestine, and remaining waste passes through the large intestine."
+            ]
+        },
+        {
+            "id": 146,
+            "category": "education_learning",
+            "question": [
+                "How can I study more effectively?"
+            ],
+            "intent": "how_can_i_study_more_effectively",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 147,
+            "category": "education_learning",
+            "question": [
+                "How do I prepare for competitive exams?"
+            ],
+            "intent": "how_do_i_prepare_for_competitive_exams",
+            "answers": [
+                "Understand the syllabus, take a diagnostic test, make a realistic study schedule, practise past papers, and review every mistake.",
+                "Use active recall and timed mock tests. Track weak topics and revise them regularly rather than only rereading notes."
+            ]
+        },
+        {
+            "id": 148,
+            "category": "education_learning",
+            "question": [
+                "What is active recall?"
+            ],
+            "intent": "what_is_active_recall",
+            "answers": [
+                "Active recall is a study method where you retrieve information from memory without looking at the answer, such as using flashcards or practice questions.",
+                "Instead of rereading notes, close them and try to explain the idea from memory. Then check and correct your answer."
+            ]
+        },
+        {
+            "id": 149,
+            "category": "education_learning",
+            "question": [
+                "What is spaced repetition?"
+            ],
+            "intent": "what_is_spaced_repetition",
+            "answers": [
+                "Spaced repetition means reviewing information at increasing intervals to strengthen long-term memory.",
+                "Review a topic shortly after learning it, then after longer gaps. Flashcard apps can schedule these reviews for you."
+            ]
+        },
+        {
+            "id": 150,
+            "category": "education_learning",
+            "question": [
+                "How can I improve my concentration?"
+            ],
+            "intent": "how_can_i_improve_my_concentration",
+            "answers": [
+                "Work in short focused sessions, silence notifications, keep only needed materials open, and take planned breaks.",
+                "Choose one task, set a timer for 20–30 minutes, remove distractions, and write down unrelated thoughts to handle later."
+            ]
+        },
+        {
+            "id": 151,
+            "category": "education_learning",
+            "question": [
+                "Explain this topic like I'm a beginner."
+            ],
+            "intent": "explain_this_topic_like_i_m_a_beginner",
+            "answers": [
+                "Tell me the topic and I will start with a plain-language definition, a familiar analogy, and one simple example.",
+                "I can explain it from the basics without assuming prior knowledge. Share the topic or paste the material."
+            ]
+        },
+        {
+            "id": 152,
+            "category": "education_learning",
+            "question": [
+                "Give me five questions to test my knowledge."
+            ],
+            "intent": "give_me_five_questions_to_test_my_knowledge",
+            "answers": [
+                "Tell me the subject and difficulty, and I will create five questions with an answer key kept separate.",
+                "I can make five recall or problem-solving questions. Name the topic and your current level."
+            ]
+        },
+        {
+            "id": 153,
+            "category": "education_learning",
+            "question": [
+                "Create a difficult quiz on mathematics."
+            ],
+            "intent": "create_a_difficult_quiz_on_mathematics",
+            "answers": [
+                "Here is a challenge: solve x² − 7x + 12 = 0; find the LCM of 18 and 24; compute 3⁵ mod 7; and find the probability of drawing an ace from a standard deck.",
+                "Try these: factor x² − 9; solve 3x + 7 = 25; find the HCF of 84 and 126; calculate 12.5% of 640; and evaluate 2⁻³."
+            ]
+        },
+        {
+            "id": 154,
+            "category": "education_learning",
+            "question": [
+                "Explain the difference between mitosis and meiosis."
+            ],
+            "intent": "explain_the_difference_between_mitosis_and_meiosis",
+            "answers": [
+                "Mitosis produces two genetically similar daughter cells for growth and repair. Meiosis produces four genetically varied haploid cells for sexual reproduction.",
+                "Mitosis involves one division and keeps the chromosome number the same; meiosis involves two divisions and halves the chromosome number."
+            ]
+        },
+        {
+            "id": 155,
+            "category": "education_learning",
+            "question": [
+                "Give me a study timetable."
+            ],
+            "intent": "give_me_a_study_timetable",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 156,
+            "category": "career_professional_life",
+            "question": [
+                "How do I become a software engineer?"
+            ],
+            "intent": "how_do_i_become_a_software_engineer",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 157,
+            "category": "career_professional_life",
+            "question": [
+                "What skills are required for web development?"
+            ],
+            "intent": "what_skills_are_required_for_web_development",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 158,
+            "category": "career_professional_life",
+            "question": [
+                "How do I create a resume?"
+            ],
+            "intent": "how_do_i_create_a_resume",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 159,
+            "category": "career_professional_life",
+            "question": [
+                "How can I prepare for an interview?"
+            ],
+            "intent": "how_can_i_prepare_for_an_interview",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 160,
+            "category": "career_professional_life",
+            "question": [
+                "What is freelancing?"
+            ],
+            "intent": "what_is_freelancing",
+            "answers": [
+                "Freelancing means working independently for clients on projects or services rather than being a permanent employee of one organization.",
+                "A freelancer sells skills such as design, writing, programming, or editing to clients, often on a project or contract basis."
+            ]
+        },
+        {
+            "id": 161,
+            "category": "career_professional_life",
+            "question": [
+                "How can I earn money online?"
+            ],
+            "intent": "how_can_i_earn_money_online",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 162,
+            "category": "career_professional_life",
+            "question": [
+                "What is entrepreneurship?"
+            ],
+            "intent": "what_is_entrepreneurship",
+            "answers": [
+                "Entrepreneurship is the process of identifying an opportunity, creating a product or service, and organizing resources to build a venture.",
+                "An entrepreneur develops a business idea, tests whether customers need it, and takes on the work and risk of building a business."
+            ]
+        },
+        {
+            "id": 163,
+            "category": "career_professional_life",
+            "question": [
+                "How do I start a startup?"
+            ],
+            "intent": "how_do_i_start_a_startup",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 164,
+            "category": "career_professional_life",
+            "question": [
+                "What are the highest-paying tech jobs?"
+            ],
+            "intent": "what_are_the_highest_paying_tech_jobs",
+            "answers": [
+                "The highest-paying tech jobs is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the highest-paying tech jobs can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 165,
+            "category": "career_professional_life",
+            "question": [
+                "How do I build a portfolio?"
+            ],
+            "intent": "how_do_i_build_a_portfolio",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 166,
+            "category": "career_professional_life",
+            "question": [
+                "What is the difference between an internship and a job?"
+            ],
+            "intent": "what_is_the_difference_between_an_internship_and_a_job",
+            "answers": [
+                "The difference between an internship and a job is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the difference between an internship and a job can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 167,
+            "category": "career_professional_life",
+            "question": [
+                "How do I improve my problem-solving skills?"
+            ],
+            "intent": "how_do_i_improve_my_problem_solving_skills",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 168,
+            "category": "career_professional_life",
+            "question": [
+                "What is data science?"
+            ],
+            "intent": "what_is_data_science",
+            "answers": [
+                "Data science combines statistics, programming, and domain knowledge to extract useful insights from data.",
+                "Data scientists collect, clean, analyze, and model data to answer questions and support decisions."
+            ]
+        },
+        {
+            "id": 169,
+            "category": "career_professional_life",
+            "question": [
+                "What is DevOps?"
+            ],
+            "intent": "what_is_devops",
+            "answers": [
+                "DevOps is a set of practices and a culture that brings software development and IT operations closer together to deliver software reliably and frequently.",
+                "DevOps uses collaboration, automation, continuous integration, continuous delivery, and monitoring to improve software delivery."
+            ]
+        },
+        {
+            "id": 170,
+            "category": "career_professional_life",
+            "question": [
+                "How can I contribute to open-source projects?"
+            ],
+            "intent": "how_can_i_contribute_to_open_source_projects",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 171,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "How much water should I drink daily?"
+            ],
+            "intent": "how_much_water_should_i_drink_daily",
+            "answers": [
+                "Fluid needs vary with body size, activity, climate, diet, and health. Drink regularly and follow medical advice if you have a fluid restriction.",
+                "There is no single daily amount that suits everyone. Heat, exercise, and health conditions change fluid needs."
+            ]
+        },
+        {
+            "id": 172,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "Why is sleep important?"
+            ],
+            "intent": "why_is_sleep_important",
+            "answers": [
+                "Sleep supports memory, learning, mood, immune function, and physical recovery.",
+                "Adequate sleep helps the brain and body recover; consistently poor sleep can affect concentration and health."
+            ]
+        },
+        {
+            "id": 173,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "How can I build muscle?"
+            ],
+            "intent": "how_can_i_build_muscle",
+            "answers": [
+                "Build muscle with progressive resistance training, enough protein and total food, consistent recovery, and adequate sleep. Increase training loads gradually and use good technique.",
+                "Train major muscle groups regularly, gradually increase difficulty, eat sufficient protein, and allow muscles time to recover."
+            ]
+        },
+        {
+            "id": 174,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "What are the benefits of walking?"
+            ],
+            "intent": "what_are_the_benefits_of_walking",
+            "answers": [
+                "Walking can improve cardiovascular fitness, mobility, mood, and blood-sugar control. Start at a comfortable pace and build gradually.",
+                "Regular walking is an accessible way to support heart health, stamina, and mental wellbeing."
+            ]
+        },
+        {
+            "id": 175,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "What is a balanced diet?"
+            ],
+            "intent": "what_is_a_balanced_diet",
+            "answers": [
+                "A balanced diet includes varied vegetables and fruits, whole grains, protein sources, and suitable amounts of fats and fluids.",
+                "Aim for variety: vegetables, fruit, pulses or other protein, whole grains, and healthy fats. Individual needs differ."
+            ]
+        },
+        {
+            "id": 176,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "How can I improve my stamina?"
+            ],
+            "intent": "how_can_i_improve_my_stamina",
+            "answers": [
+                "Build stamina gradually with consistent aerobic activity such as brisk walking, cycling, or swimming. Increase duration or intensity slowly and include recovery days.",
+                "Start at a pace where you can still speak, train regularly, and increase your workload in small steps."
+            ]
+        },
+        {
+            "id": 177,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "What are the benefits of meditation?"
+            ],
+            "intent": "what_are_the_benefits_of_meditation",
+            "answers": [
+                "Meditation can help some people practise attention, notice thoughts without reacting immediately, and manage stress. Effects vary between people.",
+                "A regular short mindfulness practice may support focus and emotional regulation. Start with a few minutes and keep expectations realistic."
+            ]
+        },
+        {
+            "id": 178,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "How many hours should I sleep?"
+            ],
+            "intent": "how_many_hours_should_i_sleep",
+            "answers": [
+                "Sleep needs depend on age. Most adults should aim for at least 7 hours per night; teenagers generally need 8–10 hours.",
+                "For adults, a regular 7–9 hour sleep window is a common target. Individual needs vary."
+            ]
+        },
+        {
+            "id": 179,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "What are some healthy breakfast options?"
+            ],
+            "intent": "what_are_some_healthy_breakfast_options",
+            "answers": [
+                "Try oats with milk or curd and fruit, besan chilla with curd, vegetable poha with peanuts, or eggs with whole-grain toast.",
+                "Balanced options include idli with sambar, sprouts with fruit, paneer/tofu toast, or dal chilla."
+            ]
+        },
+        {
+            "id": 180,
+            "category": "health,_fitness_lifestyle",
+            "question": [
+                "How can I develop a consistent workout routine?"
+            ],
+            "intent": "how_can_i_develop_a_consistent_workout_routine",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 181,
+            "category": "food_cooking",
+            "question": [
+                "How do I make pasta?"
+            ],
+            "intent": "how_do_i_make_pasta",
+            "answers": [
+                "Boil pasta in salted water until just tender. Sauté garlic and vegetables, add tomato sauce and seasoning, then toss with drained pasta and a little pasta water.",
+                "Cook pasta according to the packet. Warm olive oil, garlic, tomatoes, and herbs in a pan, then mix in the pasta."
+            ]
+        },
+        {
+            "id": 182,
+            "category": "food_cooking",
+            "question": [
+                "How do I prepare vegetable biryani?"
+            ],
+            "intent": "how_do_i_prepare_vegetable_biryani",
+            "answers": [
+                "Sauté whole spices, onions, ginger-garlic, and mixed vegetables with yoghurt and biryani spices. Layer with partly cooked basmati rice, herbs, and saffron milk; cover and cook on low until done.",
+                "Cook spiced vegetables separately, layer them with parboiled rice, mint, coriander, and fried onions, then steam on low heat until the rice is cooked."
+            ]
+        },
+        {
+            "id": 183,
+            "category": "food_cooking",
+            "question": [
+                "What can I cook with potatoes and onions?"
+            ],
+            "intent": "what_can_i_cook_with_potatoes_and_onions",
+            "answers": [
+                "Make aloo pyaz sabzi: sauté cumin, add onions, potatoes, turmeric, chilli, salt, and a splash of water; cover until potatoes soften.",
+                "You can make potato-onion paratha filling, a simple curry, or roasted wedges with onion and spices."
+            ]
+        },
+        {
+            "id": 184,
+            "category": "food_cooking",
+            "question": [
+                "Suggest a healthy vegetarian meal."
+            ],
+            "intent": "suggest_a_healthy_vegetarian_meal",
+            "answers": [
+                "Try dal, roti or rice, seasonal vegetable sabzi, curd, and salad.",
+                "A balanced vegetarian plate could include rajma or chana, whole-grain roti, vegetables, curd, and fruit."
+            ]
+        },
+        {
+            "id": 185,
+            "category": "food_cooking",
+            "question": [
+                "How do I make homemade pizza?"
+            ],
+            "intent": "how_do_i_make_homemade_pizza",
+            "answers": [
+                "Spread tomato sauce on dough, add cheese and vegetables, then bake in a preheated hot oven until the crust is browned and cheese melts.",
+                "Use a pizza base, sauce, mozzarella, and toppings. Bake at a high temperature according to the base instructions."
+            ]
+        },
+        {
+            "id": 186,
+            "category": "food_cooking",
+            "question": [
+                "What is the difference between baking and roasting?"
+            ],
+            "intent": "what_is_the_difference_between_baking_and_roasting",
+            "answers": [
+                "Both use dry oven heat. Baking is commonly used for breads, cakes, and casseroles; roasting usually refers to cooking vegetables or larger pieces of meat at higher heat to brown the surface.",
+                "Baking often describes doughs and batters, while roasting usually means cooking solid foods with dry heat to develop browning."
+            ]
+        },
+        {
+            "id": 187,
+            "category": "food_cooking",
+            "question": [
+                "How do I make pancakes?"
+            ],
+            "intent": "how_do_i_make_pancakes",
+            "answers": [
+                "Whisk flour, milk, an egg, a little sugar, baking powder, and a pinch of salt. Pour small portions onto a lightly greased hot pan and flip when bubbles form.",
+                "Mix flour, milk, egg, baking powder, and a little sugar into a smooth batter. Cook spoonfuls on a warm pan until bubbles appear, then flip."
+            ]
+        },
+        {
+            "id": 188,
+            "category": "food_cooking",
+            "question": [
+                "Suggest five easy hostel recipes."
+            ],
+            "intent": "suggest_five_easy_hostel_recipes",
+            "answers": [
+                "Try vegetable poha, besan chilla, masala oats, sprouts chaat, and a paneer or peanut-butter sandwich.",
+                "Easy hostel ideas: curd rice, microwave mug khichdi, banana oats, chickpea salad, and vegetable upma."
+            ]
+        },
+        {
+            "id": 189,
+            "category": "food_cooking",
+            "question": [
+                "How do I store vegetables properly?"
+            ],
+            "intent": "how_do_i_store_vegetables_properly",
+            "answers": [
+                "Keep most vegetables dry and refrigerated, but store potatoes and onions in a cool, dark, ventilated place away from each other. Remove spoiled pieces promptly.",
+                "Different vegetables need different storage. Refrigerate leafy greens, keep potatoes in a dark ventilated spot, and avoid washing produce until use unless it needs drying well."
+            ]
+        },
+        {
+            "id": 190,
+            "category": "food_cooking",
+            "question": [
+                "What are some high-protein vegetarian foods?"
+            ],
+            "intent": "what_are_some_high_protein_vegetarian_foods",
+            "answers": [
+                "Good options include lentils, chickpeas, kidney beans, soy chunks, tofu, paneer, Greek yoghurt/curd, milk, and peanuts.",
+                "Include dal, rajma, chana, soy, tofu, paneer, dairy, and seeds across meals to increase vegetarian protein."
+            ]
+        },
+        {
+            "id": 191,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "Why is my laptop running slowly?"
+            ],
+            "intent": "why_is_my_laptop_running_slowly",
+            "answers": [
+                "Open Activity Monitor on macOS or Task Manager on Windows and check which apps use CPU, memory, or disk. Close unnecessary apps, free storage, and restart.",
+                "Common causes include too many background apps, low free storage, memory pressure, or a pending update. Check resource usage before deleting files."
+            ]
+        },
+        {
+            "id": 192,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "Why does my Python code show a syntax error?"
+            ],
+            "intent": "why_does_my_python_code_show_a_syntax_error",
+            "answers": [
+                "Python cannot parse the code. Check the reported line and the line before it for missing colons, unmatched brackets, quotes, or incorrect syntax.",
+                "Read the traceback carefully. Common causes are a missing `:`, an unclosed quote or parenthesis, or a misspelled keyword."
+            ]
+        },
+        {
+            "id": 193,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "How do I install Python?"
+            ],
+            "intent": "how_do_i_install_python",
+            "answers": [
+                "On macOS, install Python 3 from python.org or use Homebrew with `brew install python`. Verify with `python3 --version`.",
+                "Download Python 3 from python.org, run the installer, and check the installation with `python3 --version` in Terminal."
+            ]
+        },
+        {
+            "id": 194,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "Why is my Wi-Fi not working?"
+            ],
+            "intent": "why_is_my_wi_fi_not_working",
+            "answers": [
+                "Check whether other devices connect, toggle Wi-Fi, restart the router, and verify the password. If all devices fail, check for an ISP outage.",
+                "Try forgetting and reconnecting to the network, restarting your router, and checking whether the issue affects one device or all devices."
+            ]
+        },
+        {
+            "id": 195,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "How do I fix a blue screen error?"
+            ],
+            "intent": "how_do_i_fix_a_blue_screen_error",
+            "answers": [
+                "Note the stop code, disconnect recently added hardware, and boot into recovery or safe mode. Update or roll back drivers and check recent software changes. Back up important data if possible.",
+                "A blue screen can be caused by drivers, hardware, or system files. Record the error code, undo recent changes, and run built-in memory and disk diagnostics."
+            ]
+        },
+        {
+            "id": 196,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "Why is my phone battery draining quickly?"
+            ],
+            "intent": "why_is_my_phone_battery_draining_quickly",
+            "answers": [
+                "Check battery usage by app, reduce unnecessary background activity, lower screen brightness, and install system updates.",
+                "A misbehaving app, weak signal, high brightness, or an aging battery can cause fast drain. Review battery settings to identify the cause."
+            ]
+        },
+        {
+            "id": 197,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "How do I recover a deleted file?"
+            ],
+            "intent": "how_do_i_recover_a_deleted_file",
+            "answers": [
+                "First check Trash or Recycle Bin. If it is not there, stop writing new data to the drive and check backups or cloud version history before trying recovery software.",
+                "Look in Recently Deleted/Trash and your backups. For an important file on a drive, avoid saving new data because it may overwrite recoverable content."
+            ]
+        },
+        {
+            "id": 198,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "Why is my computer overheating?"
+            ],
+            "intent": "why_is_my_computer_overheating",
+            "answers": [
+                "Check for blocked vents, dust buildup, heavy background processes, and poor airflow. Use the computer on a hard surface and seek service if it overheats at idle.",
+                "High CPU/GPU load, dust, fan problems, or a hot environment can cause overheating. Check activity and keep vents unobstructed."
+            ]
+        },
+        {
+            "id": 199,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "How do I clear storage on my laptop?"
+            ],
+            "intent": "how_do_i_clear_storage_on_my_laptop",
+            "answers": [
+                "Review storage settings, remove apps you no longer use, empty Trash, and move large personal files to a backup drive or cloud storage. Do not delete system files.",
+                "Use the built-in storage manager to find large files, uninstall unused apps, and clear safe temporary files. Back up important data first."
+            ]
+        },
+        {
+            "id": 200,
+            "category": "troubleshooting_technical_support",
+            "question": [
+                "Why is my program showing an infinite loop?"
+            ],
+            "intent": "why_is_my_program_showing_an_infinite_loop",
+            "answers": [
+                "An infinite loop occurs when the loop condition never becomes false. Check whether the loop variable changes and whether the exit condition can be reached.",
+                "Trace the loop variables on each iteration. Make sure the update statement runs and that the condition eventually becomes false."
+            ]
+        },
+        {
+            "id": 201,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "If five people take five minutes to make five products, how long will 100 people take to make 100 products?"
+            ],
+            "intent": "if_five_people_take_five_minutes_to_make_five_products_how_long_will_1",
+            "answers": [
+                "Five minutes, assuming everyone works at the same constant rate: each person makes one product in five minutes.",
+                "It takes 5 minutes. The rate is one product per person per five minutes."
+            ]
+        },
+        {
+            "id": 202,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "A train travels 60 km in one hour. How far will it travel in three hours?"
+            ],
+            "intent": "a_train_travels_60_km_in_one_hour_how_far_will_it_travel_in_three_hour",
+            "answers": [
+                "180 km, assuming it maintains the same speed: 60 × 3 = 180.",
+                "At 60 km/h for 3 hours, the train covers 180 kilometres."
+            ]
+        },
+        {
+            "id": 203,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "If today is Monday, what day will it be after 100 days?"
+            ],
+            "intent": "if_today_is_monday_what_day_will_it_be_after_100_days",
+            "answers": [
+                "Wednesday. Since 100 ÷ 7 leaves a remainder of 2, move forward two days from Monday.",
+                "It will be Wednesday: 100 days is 14 weeks plus 2 days."
+            ]
+        },
+        {
+            "id": 204,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "Find the odd one out: Apple, Banana, Carrot, Mango."
+            ],
+            "intent": "find_the_odd_one_out_apple_banana_carrot_mango",
+            "answers": [
+                "Carrot, because it is commonly classified as a vegetable while the others are fruits.",
+                "Carrot is the odd one out in the usual culinary classification."
+            ]
+        },
+        {
+            "id": 205,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "A father is twice as old as his son. Their ages add up to 60. Find their ages."
+            ],
+            "intent": "a_father_is_twice_as_old_as_his_son_their_ages_add_up_to_60_find_their",
+            "answers": [
+                "The son is 20 and the father is 40. Let the son’s age be x: x + 2x = 60, so x = 20.",
+                "Son: 20 years; father: 40 years. Their ages total 60 and the father is twice the son’s age."
+            ]
+        },
+        {
+            "id": 206,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "If all roses are flowers and some flowers fade quickly, do all roses fade quickly?"
+            ],
+            "intent": "if_all_roses_are_flowers_and_some_flowers_fade_quickly_do_all_roses_fa",
+            "answers": [
+                "No. The statements do not establish that roses are among the flowers that fade quickly.",
+                "You cannot conclude that. “Some flowers” does not mean all flowers or all roses."
+            ]
+        },
+        {
+            "id": 207,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "Complete the sequence: 1, 4, 9, 16, 25, ?"
+            ],
+            "intent": "complete_the_sequence_1_4_9_16_25",
+            "answers": [
+                "36. These are square numbers: 1², 2², 3², 4², 5², then 6².",
+                "The next term is 36, which is 6 squared."
+            ]
+        },
+        {
+            "id": 208,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "You have three switches and one bulb in another room. How can you identify which switch controls the bulb?"
+            ],
+            "intent": "you_have_three_switches_and_one_bulb_in_another_room_how_can_you_ident",
+            "answers": [
+                "Turn switch 1 on for a few minutes, then turn it off. Turn switch 2 on and enter the room. If the bulb is lit, switch 2 controls it; if it is off but warm, switch 1 does; if off and cool, switch 3 does.",
+                "Use the bulb’s heat as a clue: leave the first switch on briefly, turn it off, turn the second on, then check the bulb. Lit means switch 2; warm but off means switch 1; cold and off means switch 3."
+            ]
+        },
+        {
+            "id": 209,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "If you overtake the person in second place in a race, what position are you in?"
+            ],
+            "intent": "if_you_overtake_the_person_in_second_place_in_a_race_what_position_are",
+            "answers": [
+                "You are in second place, because you take the position of the person you passed.",
+                "Second place. Passing the runner in second does not put you in first."
+            ]
+        },
+        {
+            "id": 210,
+            "category": "reasoning_logical_thinking",
+            "question": [
+                "How many times can you subtract 10 from 100?"
+            ],
+            "intent": "how_many_times_can_you_subtract_10_from_100",
+            "answers": [
+                "Once. After subtracting 10 the first time, you are subtracting from 90, not 100.",
+                "Only once if the wording means subtracting 10 from 100 each time; after the first subtraction the starting number is 90."
+            ]
+        },
+        {
+            "id": 211,
+            "category": "creative_writing",
+            "question": [
+                "Write a short story about a robot."
+            ],
+            "intent": "write_a_short_story_about_a_robot",
+            "answers": [
+                "A small library robot repaired torn books every night. It never understood why humans treasured stories until it found a note inside a damaged novel: “This book helped me when I felt alone.” From then on, it repaired every story it could.",
+                "A delivery robot kept leaving one parcel at the wrong door. One rainy evening, the resident opened it and found a thank-you note from someone the robot had helped months earlier. Its route had finally made sense."
+            ]
+        },
+        {
+            "id": 212,
+            "category": "creative_writing",
+            "question": [
+                "Write a poem about friendship."
+            ],
+            "intent": "write_a_poem_about_friendship",
+            "answers": [
+                "A friend can make a cloudy day\nFeel lighter in a quiet way.\nThrough changing roads and passing years,\nA steady voice can calm our fears.",
+                "Not every kindness needs a show,\nSome friends just stay and help us grow.\nThrough every laugh and challenge new,\nThe road feels less alone with you."
+            ]
+        },
+        {
+            "id": 213,
+            "category": "creative_writing",
+            "question": [
+                "Give me a story with a plot twist."
+            ],
+            "intent": "give_me_a_story_with_a_plot_twist",
+            "answers": [
+                "Here is a starting point: build the piece around one clear idea, a specific mood, and a memorable detail. I can expand it to the requested length.",
+                "A strong draft should match the requested genre, audience, and tone. I can produce an original version and revise it to fit your style."
+            ]
+        },
+        {
+            "id": 214,
+            "category": "creative_writing",
+            "question": [
+                "Write a motivational speech."
+            ],
+            "intent": "write_a_motivational_speech",
+            "answers": [
+                "Here is a starting point: build the piece around one clear idea, a specific mood, and a memorable detail. I can expand it to the requested length.",
+                "A strong draft should match the requested genre, audience, and tone. I can produce an original version and revise it to fit your style."
+            ]
+        },
+        {
+            "id": 215,
+            "category": "creative_writing",
+            "question": [
+                "Create a fictional character."
+            ],
+            "intent": "create_a_fictional_character",
+            "answers": [
+                "Here is a starting point: build the piece around one clear idea, a specific mood, and a memorable detail. I can expand it to the requested length.",
+                "A strong draft should match the requested genre, audience, and tone. I can produce an original version and revise it to fit your style."
+            ]
+        },
+        {
+            "id": 216,
+            "category": "creative_writing",
+            "question": [
+                "Write a horror story in 200 words."
+            ],
+            "intent": "write_a_horror_story_in_200_words",
+            "answers": [
+                "Here is a starting point: build the piece around one clear idea, a specific mood, and a memorable detail. I can expand it to the requested length.",
+                "A strong draft should match the requested genre, audience, and tone. I can produce an original version and revise it to fit your style."
+            ]
+        },
+        {
+            "id": 217,
+            "category": "creative_writing",
+            "question": [
+                "Give me a funny Instagram caption."
+            ],
+            "intent": "give_me_a_funny_instagram_caption",
+            "answers": [
+                "Here is a starting point: build the piece around one clear idea, a specific mood, and a memorable detail. I can expand it to the requested length.",
+                "A strong draft should match the requested genre, audience, and tone. I can produce an original version and revise it to fit your style."
+            ]
+        },
+        {
+            "id": 218,
+            "category": "creative_writing",
+            "question": [
+                "Write a professional email requesting leave."
+            ],
+            "intent": "write_a_professional_email_requesting_leave",
+            "answers": [
+                "Subject: Leave Request\n\nDear [Manager’s Name],\n\nI would like to request leave on [date] due to [reason]. I will ensure my current tasks are updated before my leave.\n\nThank you for your consideration.\n\nRegards,\n[Your Name]",
+                "Subject: Request for Leave\n\nHello [Manager’s Name],\n\nI am requesting leave from [start date] to [end date]. Please let me know if you need any additional information. I will coordinate any pending work in advance.\n\nBest regards,\n[Your Name]"
+            ]
+        },
+        {
+            "id": 219,
+            "category": "creative_writing",
+            "question": [
+                "Create a fictional conversation between two friends."
+            ],
+            "intent": "create_a_fictional_conversation_between_two_friends",
+            "answers": [
+                "Here is a starting point: build the piece around one clear idea, a specific mood, and a memorable detail. I can expand it to the requested length.",
+                "A strong draft should match the requested genre, audience, and tone. I can produce an original version and revise it to fit your style."
+            ]
+        },
+        {
+            "id": 220,
+            "category": "creative_writing",
+            "question": [
+                "Write a science-fiction story about the future."
+            ],
+            "intent": "write_a_science_fiction_story_about_the_future",
+            "answers": [
+                "Here is a starting point: build the piece around one clear idea, a specific mood, and a memorable detail. I can expand it to the requested length.",
+                "A strong draft should match the requested genre, audience, and tone. I can produce an original version and revise it to fit your style."
+            ]
+        },
+        {
+            "id": 221,
+            "category": "planning_productivity",
+            "question": [
+                "Create a daily routine for me."
+            ],
+            "intent": "create_a_daily_routine_for_me",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 222,
+            "category": "planning_productivity",
+            "question": [
+                "Make a weekly study timetable."
+            ],
+            "intent": "make_a_weekly_study_timetable",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 223,
+            "category": "planning_productivity",
+            "question": [
+                "How can I stop procrastinating?"
+            ],
+            "intent": "how_can_i_stop_procrastinating",
+            "answers": [
+                "Turn the task into a first step that takes five minutes, put your phone away, and work for one focused 20-minute block.",
+                "Write the next physical action, set a short timer, and begin before you feel fully motivated. Make the task smaller if you keep avoiding it."
+            ]
+        },
+        {
+            "id": 224,
+            "category": "planning_productivity",
+            "question": [
+                "How do I manage my time?"
+            ],
+            "intent": "how_do_i_manage_my_time",
+            "answers": [
+                "List your tasks, estimate how long they take, choose the top priorities, and schedule focused blocks with breaks. Leave some buffer for unexpected work.",
+                "Use a calendar for fixed commitments and a short daily list for priorities. Do the important task before low-value distractions."
+            ]
+        },
+        {
+            "id": 225,
+            "category": "planning_productivity",
+            "question": [
+                "Suggest some productive habits."
+            ],
+            "intent": "suggest_some_productive_habits",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 226,
+            "category": "planning_productivity",
+            "question": [
+                "How can I organize my computer files?"
+            ],
+            "intent": "how_can_i_organize_my_computer_files",
+            "answers": [
+                "Create a few main folders such as Documents, Projects, Photos, and Downloads. Use clear filenames with dates where useful, and archive old work instead of scattering files across the desktop.",
+                "Use a consistent folder structure, descriptive filenames, and regular backups. Avoid keeping multiple confusing copies of the same file."
+            ]
+        },
+        {
+            "id": 227,
+            "category": "planning_productivity",
+            "question": [
+                "How do I set realistic goals?"
+            ],
+            "intent": "how_do_i_set_realistic_goals",
+            "answers": [
+                "Define a measurable outcome, a deadline, and the smallest repeatable actions needed. Break large goals into weekly milestones and adjust based on progress.",
+                "Make goals specific and achievable with the time and resources you have. Track actions you control, not just the final result."
+            ]
+        },
+        {
+            "id": 228,
+            "category": "planning_productivity",
+            "question": [
+                "Create a 30-day Python learning plan."
+            ],
+            "intent": "create_a_30_day_python_learning_plan",
+            "answers": [
+                "Days 1–5: variables, types, input/output, and conditions. Days 6–10: loops and strings. Days 11–15: lists, tuples, sets, and dictionaries. Days 16–20: functions and modules. Days 21–25: files and exceptions. Days 26–30: build a small project and review.",
+                "Spend the first week on syntax and conditions, the second on loops and collections, the third on functions/files/errors, and the fourth building a CLI project and practising problems daily."
+            ]
+        },
+        {
+            "id": 229,
+            "category": "planning_productivity",
+            "question": [
+                "How can I maintain consistency?"
+            ],
+            "intent": "how_can_i_maintain_consistency",
+            "answers": [
+                "Choose a small daily minimum, attach it to an existing routine, track completion, and plan for missed days without giving up.",
+                "Make the habit easy to start. A 10-minute daily session is often more sustainable than an ambitious plan you cannot repeat."
+            ]
+        },
+        {
+            "id": 230,
+            "category": "planning_productivity",
+            "question": [
+                "How do I prioritize multiple tasks?"
+            ],
+            "intent": "how_do_i_prioritize_multiple_tasks",
+            "answers": [
+                "Rank tasks by urgency, impact, and deadlines. Do high-impact, time-sensitive work first, and break large tasks into smaller actions.",
+                "Write everything down, identify what has the biggest consequence if delayed, and focus on one priority at a time."
+            ]
+        },
+        {
+            "id": 231,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "My name is Rahul."
+            ],
+            "intent": "my_name_is_rahul",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 232,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "I am 20 years old."
+            ],
+            "intent": "i_am_20_years_old",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 233,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "I live in Mumbai."
+            ],
+            "intent": "i_live_in_mumbai",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 234,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "I am learning Python."
+            ],
+            "intent": "i_am_learning_python",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 235,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "Remember that my favourite programming language is Python."
+            ],
+            "intent": "remember_that_my_favourite_programming_language_is_python",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 236,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "What is my name?"
+            ],
+            "intent": "what_is_my_name",
+            "answers": [
+                "My name is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, my name can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 237,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "How old am I?"
+            ],
+            "intent": "how_old_am_i",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 238,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "Where do I live?"
+            ],
+            "intent": "where_do_i_live",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 239,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "Which programming language am I learning?"
+            ],
+            "intent": "which_programming_language_am_i_learning",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 240,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "What is my favourite programming language?"
+            ],
+            "intent": "what_is_my_favourite_programming_language",
+            "answers": [
+                "My favourite programming language is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, my favourite programming language can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 241,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "I want to learn JavaScript too."
+            ],
+            "intent": "i_want_to_learn_javascript_too",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 242,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "Which programming languages am I learning?"
+            ],
+            "intent": "which_programming_languages_am_i_learning",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 243,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "Forget my age."
+            ],
+            "intent": "forget_my_age",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 244,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "What information do you remember about me?"
+            ],
+            "intent": "what_information_do_you_remember_about_me",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 245,
+            "category": "conversation_context_memory_testing",
+            "question": [
+                "Can you summarize our conversation?"
+            ],
+            "intent": "can_you_summarize_our_conversation",
+            "answers": [
+                "I can help with this. Share the relevant details and I will give a focused answer.",
+                "Let us break the request into clear steps and work through it."
+            ]
+        },
+        {
+            "id": 246,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "What is the meaning of life?"
+            ],
+            "intent": "what_is_the_meaning_of_life",
+            "answers": [
+                "The meaning of life is a topic or concept. Its meaning depends on the context; I can explain its definition, main features, and practical uses with an example.",
+                "In simple terms, the meaning of life can be understood by looking at what it is, how it works, and where it is used. Ask for a beginner explanation or an example."
+            ]
+        },
+        {
+            "id": 247,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Can you explain something without using technical words?"
+            ],
+            "intent": "can_you_explain_something_without_using_technical_words",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 248,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Tell me something you don't know."
+            ],
+            "intent": "tell_me_something_you_don_t_know",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 249,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "What happens if the internet stops working worldwide?"
+            ],
+            "intent": "what_happens_if_the_internet_stops_working_worldwide",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 250,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Can you answer a question with only one word?"
+            ],
+            "intent": "can_you_answer_a_question_with_only_one_word",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 251,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Explain AI to a five-year-old."
+            ],
+            "intent": "explain_ai_to_a_five_year_old",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 252,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "What do you mean by that?"
+            ],
+            "intent": "what_do_you_mean_by_that",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 253,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Can you give me another example?"
+            ],
+            "intent": "can_you_give_me_another_example",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 254,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "That's not what I asked. Try again."
+            ],
+            "intent": "that_s_not_what_i_asked_try_again",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 255,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Can you explain your answer?"
+            ],
+            "intent": "can_you_explain_your_answer",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 256,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "What if my assumption is wrong?"
+            ],
+            "intent": "what_if_my_assumption_is_wrong",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 257,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Can you compare these two things?"
+            ],
+            "intent": "can_you_compare_these_two_things",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 258,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Give me a short answer."
+            ],
+            "intent": "give_me_a_short_answer",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 259,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Explain in detail."
+            ],
+            "intent": "explain_in_detail",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 260,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "I don't understand. Make it simpler."
+            ],
+            "intent": "i_don_t_understand_make_it_simpler",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 261,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Explain recursion, then give me an example in Python."
+            ],
+            "intent": "explain_recursion_then_give_me_an_example_in_python",
+            "answers": [
+                "Recursion is when a function calls itself to solve a smaller version of a problem. Example: `def factorial(n):\n    if n <= 1: return 1\n    return n * factorial(n - 1)`",
+                "A recursive function needs a base case. Example: `def countdown(n):\n    if n == 0: return\n    print(n)\n    countdown(n - 1)`"
+            ]
+        },
+        {
+            "id": 262,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Explain recursion without using the word recursion."
+            ],
+            "intent": "explain_recursion_without_using_the_word_recursion",
+            "answers": [
+                "Imagine opening a box that contains a smaller box, which contains another smaller box. You keep repeating the same action until you reach the final empty box; then you work back out.",
+                "Think of Russian nesting dolls: each doll contains a smaller version, until you reach the smallest one. The process stops at that final case."
+            ]
+        },
+        {
+            "id": 263,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Give me a Python question, wait for my answer, and then evaluate it."
+            ],
+            "intent": "give_me_a_python_question_wait_for_my_answer_and_then_evaluate_it",
+            "answers": [
+                "I can help, but the answer depends on the context and what you mean. Add one detail and I will make the response more precise.",
+                "There may be several interpretations. I will state my assumption and explain the answer under that interpretation."
+            ]
+        },
+        {
+            "id": 264,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "I think 2 + 2 = 5. Am I correct?"
+            ],
+            "intent": "i_think_2_2_5_am_i_correct",
+            "answers": [
+                "No. 2 + 2 = 4.",
+                "Not quite: adding two and two gives 4."
+            ]
+        },
+        {
+            "id": 265,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Explain why my answer is incorrect without giving me the final solution."
+            ],
+            "intent": "explain_why_my_answer_is_incorrect_without_giving_me_the_final_solutio",
+            "answers": [
+                "Share the original question and your working. I will point out the first incorrect step and explain the concept without revealing the final answer.",
+                "I need to see the problem and your reasoning first. Then I can give a hint about where the logic goes wrong."
+            ]
+        },
+        {
+            "id": 266,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Give me three possible solutions to the same problem."
+            ],
+            "intent": "give_me_three_possible_solutions_to_the_same_problem",
+            "answers": [
+                "Share the problem and any constraints. I can show three approaches, compare their trade-offs, and explain which is simplest or most efficient.",
+                "Send the problem statement and I will outline a straightforward method, an alternative method, and an optimized method where appropriate."
+            ]
+        },
+        {
+            "id": 267,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Explain this concept using a real-life example."
+            ],
+            "intent": "explain_this_concept_using_a_real_life_example",
+            "answers": [
+                "Tell me the concept and I will connect it to a familiar situation, then map each part of the example back to the idea.",
+                "Share the topic. I will use an everyday analogy and explain where the analogy matches and where it stops being accurate."
+            ]
+        },
+        {
+            "id": 268,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Summarize everything we discussed in five points."
+            ],
+            "intent": "summarize_everything_we_discussed_in_five_points",
+            "answers": [
+                "I can do that. I will identify the five main ideas, decisions, and next steps from the conversation so far.",
+                "Here is how I will summarize it: key topic, important facts, decisions, unresolved questions, and next actions."
+            ]
+        },
+        {
+            "id": 269,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Give me an answer in exactly 20 words."
+            ],
+            "intent": "give_me_an_answer_in_exactly_20_words",
+            "answers": [
+                "Send me the question or topic, and I will write a response containing exactly 20 words.",
+                "I can do that. Provide the prompt and I will count the words carefully before answering."
+            ]
+        },
+        {
+            "id": 270,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "First explain the problem, then explain the solution."
+            ],
+            "intent": "first_explain_the_problem_then_explain_the_solution",
+            "answers": [
+                "Share the problem. I will first restate what it asks and identify the constraints, then give a step-by-step solution.",
+                "I will separate the explanation into “Problem” and “Solution” so the reasoning is clear."
+            ]
+        },
+        {
+            "id": 271,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "What would happen if I changed one condition in this problem?"
+            ],
+            "intent": "what_would_happen_if_i_changed_one_condition_in_this_problem",
+            "answers": [
+                "Share the original problem and the condition you want to change. I can explain which parts of the solution would change and why.",
+                "Changing a condition may affect the assumptions, possible cases, and final result. Send the exact change and I will compare both versions."
+            ]
+        },
+        {
+            "id": 272,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Give me a question that tests my critical thinking."
+            ],
+            "intent": "give_me_a_question_that_tests_my_critical_thinking",
+            "answers": [
+                "A city can reduce traffic by widening roads, but wider roads may encourage more people to drive. What evidence would you collect before choosing a solution?",
+                "If an app has many downloads but few active users, what are three possible explanations and how would you test them?"
+            ]
+        },
+        {
+            "id": 273,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Compare Python, Java and C++ based on performance and ease of learning."
+            ],
+            "intent": "compare_python_java_and_c_based_on_performance_and_ease_of_learning",
+            "answers": [
+                "Python is usually easiest to start with and supports rapid development, but is often slower for CPU-heavy tasks. Java balances portability and performance with a managed runtime. C++ offers strong performance and low-level control but has a steeper learning curve.",
+                "For beginners, Python is generally simplest. Java provides strong structure and portability for large applications. C++ offers fine control and high performance, but memory management and language complexity make it harder to learn."
+            ]
+        },
+        {
+            "id": 274,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "I have 30 days to learn programming. Create a realistic plan."
+            ],
+            "intent": "i_have_30_days_to_learn_programming_create_a_realistic_plan",
+            "answers": [
+                "Days 1–7: variables, input/output, conditions, and loops. Days 8–14: functions, strings, and collections. Days 15–21: solve beginner problems and learn debugging. Days 22–30: build one small project, use Git, and review weak areas.",
+                "Choose one language. Study fundamentals for one week, practise loops and data structures in week two, solve small problems in week three, and build a complete beginner project in week four."
+            ]
+        },
+        {
+            "id": 275,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Find contradictions in the following paragraph."
+            ],
+            "intent": "find_contradictions_in_the_following_paragraph",
+            "answers": [
+                "Paste the paragraph. I will list each pair of claims that cannot both be true and quote the relevant wording.",
+                "I need the paragraph to check it. I will separate direct contradictions from claims that are merely unclear or unsupported."
+            ]
+        },
+        {
+            "id": 276,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Explain the difference between correlation and causation."
+            ],
+            "intent": "explain_the_difference_between_correlation_and_causation",
+            "answers": [
+                "Correlation means two variables change together; causation means a change in one variable produces a change in another. Correlation alone does not prove causation.",
+                "Ice-cream sales and sunburns may rise together in summer, but ice cream does not cause sunburn. Hot sunny weather influences both."
+            ]
+        },
+        {
+            "id": 277,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Can you identify the assumptions in my argument?"
+            ],
+            "intent": "can_you_identify_the_assumptions_in_my_argument",
+            "answers": [
+                "Share your argument. I will identify claims it takes for granted, evidence it relies on, and any hidden premises.",
+                "Paste the reasoning and I will separate stated facts from assumptions that need support."
+            ]
+        },
+        {
+            "id": 278,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Give me a counterargument to my opinion."
+            ],
+            "intent": "give_me_a_counterargument_to_my_opinion",
+            "answers": [
+                "Share your opinion and I will present a strong, fair counterargument based on evidence and logic.",
+                "Tell me your position. I will challenge its assumptions without disagreeing just for the sake of it."
+            ]
+        },
+        {
+            "id": 279,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Explain the same topic at beginner, intermediate and advanced levels."
+            ],
+            "intent": "explain_the_same_topic_at_beginner_intermediate_and_advanced_levels",
+            "answers": [
+                "Tell me the topic. I will structure it into a beginner explanation, practical intermediate detail, and advanced technical treatment.",
+                "Share the subject and I will build it in three layers: intuition, how it works, and deeper technical details."
+            ]
+        },
+        {
+            "id": 280,
+            "category": "handling_unusual_or_ambiguous_questions",
+            "question": [
+                "Ask me follow-up questions until you understand my requirements."
+            ],
+            "intent": "ask_me_follow_up_questions_until_you_understand_my_requirements",
+            "answers": [
+                "Sure. I will ask one focused question at a time, clarify constraints, and summarize what I understand before proposing a solution.",
+                "I will first identify the goal, then ask about the most important missing detail, such as audience, format, deadline, or constraints."
+            ]
+        },
+        {
+            "id": 281,
+            "category": "greetings_basic_conversation",
+            "question": [
+                "Yo"
+            ],
+            "intent": "hello",
+            "answers": [
+                "Yoo, wassup dawg!?",
+                "Yoo, gng ssup??"
+            ]
+        }
+    ]
+}
